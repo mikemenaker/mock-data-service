@@ -1,0 +1,228 @@
+{
+    "carousel": [
+        {
+            "title": "Pie 1",
+            "type": "pie",
+            "dataSource": "https://datasource",
+            "updateInterval": 30,
+            "labels": [
+                "Pie Label 1",
+                "Pie Label 2",
+                "Pie Label 3",
+                "Pie Label 4",
+                "Pie Label 5"
+            ]
+        },
+        {
+            "title": "Doughnut 1",
+            "type": "doughnut",
+            "dataSource": "https://datasource",
+            "updateInterval": 30,
+            "labels": [
+                "Doughnut Label 1",
+                "Doughnut Label 2",
+                "Doughnut Label 3"
+            ]
+        }
+    ],
+    "tabs": [
+        {
+            "name": "Data Tab 1",
+            "data": [
+                {
+                    "title": "Pie 1",
+                    "type": "pie",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Pie Label 1",
+                        "Pie Label 2",
+                        "Pie Label 3",
+                        "Pie Label 4",
+                        "Pie Label 5"
+                    ]
+                },
+                {
+                    "title": "Doughnut 1",
+                    "type": "doughnut",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Doughnut Label 1",
+                        "Doughnut Label 2",
+                        "Doughnut Label 3"
+                    ]
+                },
+                {
+                    "title": "Bar 1",
+                    "type": "bar",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Bar Label 1",
+                        "Bar Label 2",
+                        "Bar Label 3",
+                        "Bar Label 4",
+                        "Bar Label 5",
+                        "Bar Label 6",
+                        "Bar Label 7",
+                        "Bar Label 8",
+                        "Bar Label 9"
+                    ]
+                },
+                {
+                    "title": "Line 1",
+                    "type": "line",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Line Label 1",
+                        "Line Label 2",
+                        "Line Label 3",
+                        "Line Label 4",
+                        "Line Label 5",
+                        "Line Label 6",
+                        "Line Label 7"
+                    ]
+                },
+                {
+                    "title": "Text 1",
+                    "type": "text",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30
+                }
+            ]
+        },
+        {
+            "name": "Data Tab 2",
+            "description": "I'm a description",
+            "data": [
+                {
+                    "title": "Doughnut 2",
+                    "description": "I'm a description",
+                    "type": "doughnut",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Doughnut Label 1",
+                        "Doughnut Label 2",
+                        "Doughnut Label 3",
+                        "Doughnut Label 4"
+                    ]
+                },
+                {
+                    "title": "Polar 1",
+                    "description": "I'm a description",
+                    "type": "polar-area",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Polar Label 1",
+                        "Polar Label 2",
+                        "Polar Label 3",
+                        "Polar Label 4"
+                    ]
+                },
+                {
+                    "title": "Bar 2",
+                    "description": "I'm a description",
+                    "type": "bar",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Bar Label 1",
+                        "Bar Label 2",
+                        "Bar Label 3",
+                        "Bar Label 4",
+                        "Bar Label 5"
+                    ]
+                },
+                {
+                    "title": "Line 2",
+                    "description": "I'm a description",
+                    "type": "line",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Line Label 1",
+                        "Line Label 2",
+                        "Line Label 3",
+                        "Line Label 4",
+                        "Line Label 5",
+                        "Line Label 6",
+                        "Line Label 7"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data Tab 3",
+            "data": [
+                {
+                    "title": "Pie 2",
+                    "description": "I'm a description",
+                    "type": "pie",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Pie Label 1",
+                        "Pie Label 2",
+                        "Pie Label 3",
+                        "Pie Label 4",
+                        "Pie Label 5"
+                    ]
+                },
+                {
+                    "title": "Doughnut 3",
+                    "description": "I'm a description",
+                    "type": "doughnut",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Doughnut Label 1",
+                        "Doughnut Label 2",
+                        "Doughnut Label 3"
+                    ]
+                },
+                {
+                    "title": "Bar 3",
+                    "type": "bar",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Bar Label 1",
+                        "Bar Label 2",
+                        "Bar Label 3",
+                        "Bar Label 4",
+                        "Bar Label 5",
+                        "Bar Label 6",
+                        "Bar Label 7",
+                        "Bar Label 8",
+                        "Bar Label 9"
+                    ]
+                },
+                {
+                    "title": "Line 3",
+                    "type": "line",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30,
+                    "labels": [
+                        "Line Label 1",
+                        "Line Label 2",
+                        "Line Label 3",
+                        "Line Label 4",
+                        "Line Label 5",
+                        "Line Label 6",
+                        "Line Label 7"
+                    ]
+                },
+                {
+                    "title": "Table 1",
+                    "type": "table",
+                    "dataSource": "https://datasource",
+                    "updateInterval": 30
+                }
+            ]
+        }
+    ]
+}
