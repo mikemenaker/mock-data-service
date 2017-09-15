@@ -27,9 +27,21 @@ var routes = Routes{
 		DataIndex,
 	},
 	Route{
-		"DataShow",
+		"DataShowStats",
 		"GET",
-		"/data/{dataType}",
-		DataShow,
+		"/data/stats/{count}",
+		DataShowStats,
+	},
+	Route{
+		"DataShowText",
+		"GET",
+		"/data/text",
+		DataShowText,
+	},
+	Route{
+		"DataShowTable",
+		"GET",
+		"/data/table",
+		DataShowTable,
 	},
 }

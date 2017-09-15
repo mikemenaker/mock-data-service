@@ -3,7 +3,7 @@
         {
             "title": "Pie 1",
             "type": "pie",
-            "dataSource": "https://datasource",
+            "dataSource": "http://localhost:3030/data/stats/5",
             "updateInterval": 30,
             "labels": [
                 "Pie Label 1",
@@ -16,7 +16,7 @@
         {
             "title": "Doughnut 1",
             "type": "doughnut",
-            "dataSource": "https://datasource",
+            "dataSource": "http://localhost:3030/data/stats/3",
             "updateInterval": 30,
             "labels": [
                 "Doughnut Label 1",
@@ -32,7 +32,7 @@
                 {
                     "title": "Pie 1",
                     "type": "pie",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/5",
                     "updateInterval": 30,
                     "labels": [
                         "Pie Label 1",
@@ -45,7 +45,7 @@
                 {
                     "title": "Doughnut 1",
                     "type": "doughnut",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/3",
                     "updateInterval": 30,
                     "labels": [
                         "Doughnut Label 1",
@@ -56,7 +56,7 @@
                 {
                     "title": "Bar 1",
                     "type": "bar",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/9",
                     "updateInterval": 30,
                     "labels": [
                         "Bar Label 1",
@@ -73,7 +73,7 @@
                 {
                     "title": "Line 1",
                     "type": "line",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/7",
                     "updateInterval": 30,
                     "labels": [
                         "Line Label 1",
@@ -88,7 +88,7 @@
                 {
                     "title": "Text 1",
                     "type": "text",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/text",
                     "updateInterval": 30
                 }
             ]
@@ -101,7 +101,7 @@
                     "title": "Doughnut 2",
                     "description": "I'm a description",
                     "type": "doughnut",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/4",
                     "updateInterval": 30,
                     "labels": [
                         "Doughnut Label 1",
@@ -114,7 +114,7 @@
                     "title": "Polar 1",
                     "description": "I'm a description",
                     "type": "polar-area",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/4",
                     "updateInterval": 30,
                     "labels": [
                         "Polar Label 1",
@@ -127,7 +127,7 @@
                     "title": "Bar 2",
                     "description": "I'm a description",
                     "type": "bar",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/5",
                     "updateInterval": 30,
                     "labels": [
                         "Bar Label 1",
@@ -141,7 +141,7 @@
                     "title": "Line 2",
                     "description": "I'm a description",
                     "type": "line",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/7",
                     "updateInterval": 30,
                     "labels": [
                         "Line Label 1",
@@ -162,7 +162,7 @@
                     "title": "Pie 2",
                     "description": "I'm a description",
                     "type": "pie",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/5",
                     "updateInterval": 30,
                     "labels": [
                         "Pie Label 1",
@@ -176,7 +176,7 @@
                     "title": "Doughnut 3",
                     "description": "I'm a description",
                     "type": "doughnut",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/3",
                     "updateInterval": 30,
                     "labels": [
                         "Doughnut Label 1",
@@ -187,7 +187,7 @@
                 {
                     "title": "Bar 3",
                     "type": "bar",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/9",
                     "updateInterval": 30,
                     "labels": [
                         "Bar Label 1",
@@ -204,7 +204,7 @@
                 {
                     "title": "Line 3",
                     "type": "line",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/stats/7",
                     "updateInterval": 30,
                     "labels": [
                         "Line Label 1",
@@ -219,7 +219,7 @@
                 {
                     "title": "Table 1",
                     "type": "table",
-                    "dataSource": "https://datasource",
+                    "dataSource": "http://localhost:3030/data/table",
                     "updateInterval": 30
                 }
             ]

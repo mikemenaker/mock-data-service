@@ -6,6 +6,8 @@ import (
 	"math/rand"
 	"net/http"
 	"io/ioutil"
+	"github.com/gorilla/mux"
+	"strconv"
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {
@@ -26,25 +28,48 @@ func DataIndex(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, str)
 }
 
-func DataShow(w http.ResponseWriter, r *http.Request) {
-	//vars := mux.Vars(r)
-	//todoId := vars["dataType"]
+func DataShowStats(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	countStr := vars["count"]
+	count, _ := strconv.ParseInt(countStr, 10, 64)
 
 	genData := make([]int, 0)
-	genData = append(genData, random(0, 100))
-	genData = append(genData, random(0, 100))
-	genData = append(genData, random(0, 100))
-	genData = append(genData, random(0, 100))
 
-	data := Data{Data: genData}
+	for i := 0; i <= int(count); i++ {
+		genData = append(genData, random(0, 100))
+	}
 
+	data := StatsData{Data: genData}
+
+	sendResponse(w, data)
+}
+
+func DataShowText(w http.ResponseWriter, r *http.Request) {
+	randNum := random(0, 100)
+	data := TextData{Data: strconv.Itoa(randNum) + " request per hour for last 24 hours"}
+
+	sendResponse(w, data)
+}
+
+func DataShowTable(w http.ResponseWriter, r *http.Request) {
+	data := TableData{Data: []TableDataItem{
+		{Name: "user1", Value: strconv.Itoa(random(0, 100)), Value2: strconv.Itoa(random(0, 100))},
+		{Name: "user2", Value: strconv.Itoa(random(0, 100)), Value2: strconv.Itoa(random(0, 100))},
+		{Name: "user3", Value: strconv.Itoa(random(0, 100)), Value2: strconv.Itoa(random(0, 100))},
+		{Name: "user4", Value: strconv.Itoa(random(0, 100)), Value2: strconv.Itoa(random(0, 100))},
+	},
+	}
+
+	sendResponse(w, data)
+}
+
+func sendResponse(w http.ResponseWriter, data interface{}) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.WriteHeader(http.StatusOK)
 	if err := json.NewEncoder(w).Encode(data); err != nil {
 		panic(err)
 	}
-	//fmt.Fprintln(w, "Todo show:", todoId, genData)
 }
 
 func random(min, max int) int {
